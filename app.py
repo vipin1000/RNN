@@ -1,10 +1,10 @@
 
 import numpy as np
-from tensorflow.keras.models import Sequential                                         #type:ignore
-from tensorflow.keras.layers import Embedding, SimpleRNN, Dense, LSTM, Dropout         #type:ignore  
-from tensorflow.keras.preprocessing.text import Tokenizer                              #type:ignore
-from tensorflow.keras.preprocessing.sequence import pad_sequences                      #type:ignore 
-from tensorflow.keras.optimizers import Adam                                           #type:ignore
+from tensorflow.keras.models import Sequential                                         
+from tensorflow.keras.layers import Embedding, SimpleRNN, Dense, Dropout         
+from tensorflow.keras.preprocessing.text import Tokenizer                              
+from tensorflow.keras.preprocessing.sequence import pad_sequences                       
+from tensorflow.keras.optimizers import Adam                                           
 from sklearn.model_selection import train_test_split
 
 # Sample data (sentences and sentiment labels)
